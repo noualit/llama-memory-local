@@ -1,0 +1,24 @@
+[project]
+name = "llama-memory"
+version = "0.1.0"
+description = "MCP Memory Service for llama-server with persistent history and semantic memory"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11,<3.12"
+
+[project.urls]
+Homepage = "https://github.com/noualit/llama-memory-local"
+Repository = "https://github.com/noualit/llama-memory-local"
+
+dependencies = [
+    "fastapi[all]",
+    "uvicorn[standard]",
+    "asyncpg",
+    "httpx",
+    "pydantic-settings",
+    "alembic",
+    "sqlalchemy>=2.0.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
