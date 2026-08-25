@@ -22,8 +22,8 @@ Note: This project is intended for local/demo use only. Do not expose it directl
 
 ```bash
 # Clone the repo
-git clone https://github.com/noualit/llama-memory-local.git
-cd llama-memory-local
+git clone https://github.com/noualit/llama-server-memory-local.git
+cd llama-server-memory-local
 
 # Create environment
 conda create -n llama-memory python=3.11
